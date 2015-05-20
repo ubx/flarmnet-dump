@@ -25,6 +25,7 @@ public class PrintFlarmNet {
             String strLine;
             byte[] bytes = new byte[172 / 2];
             int entries = 0;
+            int entriesTotal = 0;
             while ((strLine = br.readLine()) != null) {
                 if (strLine.length() == 172) {
                     for (int i = 0; i < bytes.length; i++) {
@@ -42,10 +43,11 @@ public class PrintFlarmNet {
                         System.out.println(rec);
                         entries++;
                     }
+                    entriesTotal++;
                 }
             }
             in.close();
-            System.out.println("entries=" + entries);
+            System.out.println("entries=" + entries + "/" + entriesTotal);
         } catch (Exception e) {// Catch exception if any
             System.err.println("Error: " + e.getMessage());
         }
