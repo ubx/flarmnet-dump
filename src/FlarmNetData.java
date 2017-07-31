@@ -17,6 +17,23 @@ public class FlarmNetData {
         return airport.trim();
     }
 
+    public String getFlarmId() {
+        return flarmId;
+    }
+
+    public String getRegistration() {
+        return registration;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public String getCallSign() {
+        return callSign;
+
+    }
+
     public FlarmNetData(String rawLine) {
         // "4B5171Andreas Lüthi        LSTB                 Discus 2             HB-3274UB 122.375"
         flarmId = rawLine.substring(0, 6);

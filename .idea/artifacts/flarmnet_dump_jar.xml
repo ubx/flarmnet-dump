@@ -2,7 +2,7 @@
   <artifact type="jar" name="flarmnet-dump:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/flarmnet_dump_jar</output-path>
     <root id="archive" name="flarmnet-dump.jar">
-      <element id="module-output" name="flarmnet-dump" />
+      <element id="module-output" name="Flarmnet-dump" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.jar" path-in-jar="/" />
     </root>
   </artifact>

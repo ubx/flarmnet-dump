@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/flarmnet-dump.iml" filepath="$PROJECT_DIR$/flarmnet-dump.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Flarmnet-dump.iml" filepath="$PROJECT_DIR$/Flarmnet-dump.iml" />
     </modules>
   </component>
 </project>
-
